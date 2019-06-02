@@ -48,6 +48,8 @@
 		18D642E81C53638200DADEC5 /* UIKit+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D642E21C53638200DADEC5 /* UIKit+Theme.swift */; };
 		18D642EA1C53638200DADEC5 /* NSObject+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D642E31C53638200DADEC5 /* NSObject+Theme.swift */; };
 		1C27D4702255D3A800C89FAD /* ThemeScrollViewIndicatorStylePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C3CC1D21CF8D6300DDA4C1 /* ThemeScrollViewIndicatorStylePicker.swift */; };
+		5CC690703240A51DA27EC85F /* Pods_PlistDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D57FF427DE771AB1B662FBB /* Pods_PlistDemo.framework */; };
+		8D39A5966F8718AA875165D2 /* Pods_SwiftTheme.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E37EFF279F2A568CF1C9C4B /* Pods_SwiftTheme.framework */; };
 		A322D88D1E665CFC0039520F /* ThemeKeyboardAppearancePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A322D88C1E665CFC0039520F /* ThemeKeyboardAppearancePicker.swift */; };
 		A34AD0521CF6A7A900B54F53 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A34AD0511CF6A7A900B54F53 /* main.m */; };
 		A34AD0551CF6A7A900B54F53 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A34AD0541CF6A7A900B54F53 /* AppDelegate.m */; };
@@ -108,6 +110,8 @@
 		A3D5F8141E3C4D3900F901C1 /* ThemeBarStylePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D5F8131E3C4D3900F901C1 /* ThemeBarStylePicker.swift */; };
 		A3D5F8191E3C56CD00F901C1 /* ThemeActivityIndicatorViewStylePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D5F8181E3C56CD00F901C1 /* ThemeActivityIndicatorViewStylePicker.swift */; };
 		A3D5F81E1E3C5B1F00F901C1 /* ThemeFontPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D5F81D1E3C5B1F00F901C1 /* ThemeFontPicker.swift */; };
+		A97D339D227AB65D00A0359C /* ThemeAttributedStringPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97D339C227AB65D00A0359C /* ThemeAttributedStringPicker.swift */; };
+		A9D2CECE2279FB3F00898EDC /* AsyncDisplayKit+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D2CECD2279FB3F00898EDC /* AsyncDisplayKit+Theme.swift */; };
 		C7C3CC1E21CF8D6300DDA4C1 /* ThemeScrollViewIndicatorStylePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C3CC1D21CF8D6300DDA4C1 /* ThemeScrollViewIndicatorStylePicker.swift */; };
 /* End PBXBuildFile section */
 
@@ -193,6 +197,7 @@
 		0A2210CA207090BF006BC28D /* NSAttributedString+Merge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+Merge.swift"; sourceTree = "<group>"; };
 		0A2210CC207095F6006BC28D /* UIRefreshControl+TitleAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIRefreshControl+TitleAttributes.swift"; sourceTree = "<group>"; };
 		0AD183E5204F8B90005F5D85 /* UITextField+PlaceholderAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+PlaceholderAttributes.swift"; sourceTree = "<group>"; };
+		0E37EFF279F2A568CF1C9C4B /* Pods_SwiftTheme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftTheme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1854EB5D1C96601E00E865C6 /* AboutCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutCell.swift; sourceTree = "<group>"; };
 		1854EB5E1C96601E00E865C6 /* ChangeThemeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeThemeCell.swift; sourceTree = "<group>"; };
 		1854EB5F1C96601E00E865C6 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
@@ -234,8 +239,11 @@
 		18D642E11C53638200DADEC5 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		18D642E21C53638200DADEC5 /* UIKit+Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIKit+Theme.swift"; sourceTree = "<group>"; };
 		18D642E31C53638200DADEC5 /* NSObject+Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Theme.swift"; sourceTree = "<group>"; };
+		3029E695201D33385D48713B /* Pods-SwiftTheme.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTheme.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftTheme/Pods-SwiftTheme.release.xcconfig"; sourceTree = "<group>"; };
 		417E8CF58D0A02C9ADB1FB59 /* Pods-PlistDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlistDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlistDemo/Pods-PlistDemo.release.xcconfig"; sourceTree = "<group>"; };
+		5D57FF427DE771AB1B662FBB /* Pods_PlistDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlistDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93F20E6BF028F63DFA7AB48C /* libPods-Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		958B053E145AEA5E5DABCC58 /* Pods-SwiftTheme.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTheme.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftTheme/Pods-SwiftTheme.debug.xcconfig"; sourceTree = "<group>"; };
 		A322D88C1E665CFC0039520F /* ThemeKeyboardAppearancePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeKeyboardAppearancePicker.swift; sourceTree = "<group>"; };
 		A34AD04E1CF6A7A900B54F53 /* OCDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A34AD0511CF6A7A900B54F53 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -286,6 +294,8 @@
 		A3D5F8181E3C56CD00F901C1 /* ThemeActivityIndicatorViewStylePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeActivityIndicatorViewStylePicker.swift; sourceTree = "<group>"; };
 		A3D5F81D1E3C5B1F00F901C1 /* ThemeFontPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeFontPicker.swift; sourceTree = "<group>"; };
 		A3EF94C91CEC29FD0068F86C /* PlistDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlistDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		A97D339C227AB65D00A0359C /* ThemeAttributedStringPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeAttributedStringPicker.swift; sourceTree = "<group>"; };
+		A9D2CECD2279FB3F00898EDC /* AsyncDisplayKit+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AsyncDisplayKit+Theme.swift"; sourceTree = "<group>"; };
 		C7C3CC1D21CF8D6300DDA4C1 /* ThemeScrollViewIndicatorStylePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeScrollViewIndicatorStylePicker.swift; sourceTree = "<group>"; };
 		ECEAC74D333D35C31C5B72FB /* Pods-PlistDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlistDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlistDemo/Pods-PlistDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -296,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3AABE941FF4861A00482FF1 /* SwiftTheme.framework in Frameworks */,
+				5CC690703240A51DA27EC85F /* Pods_PlistDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +314,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D39A5966F8718AA875165D2 /* Pods_SwiftTheme.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,6 +502,7 @@
 				A3A3899C1D8E2FB200797F17 /* ThemeManager+Plist.swift */,
 				18D642E11C53638200DADEC5 /* UIColorExtension.swift */,
 				18D642E21C53638200DADEC5 /* UIKit+Theme.swift */,
+				A9D2CECD2279FB3F00898EDC /* AsyncDisplayKit+Theme.swift */,
 				18D642E31C53638200DADEC5 /* NSObject+Theme.swift */,
 				0A2210CA207090BF006BC28D /* NSAttributedString+Merge.swift */,
 				0AD183E5204F8B90005F5D85 /* UITextField+PlaceholderAttributes.swift */,
@@ -502,6 +515,8 @@
 			isa = PBXGroup;
 			children = (
 				93F20E6BF028F63DFA7AB48C /* libPods-Demo.a */,
+				5D57FF427DE771AB1B662FBB /* Pods_PlistDemo.framework */,
+				0E37EFF279F2A568CF1C9C4B /* Pods_SwiftTheme.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -566,6 +581,7 @@
 			children = (
 				187C0D1D1C562AC00000FA89 /* ThemePicker.swift */,
 				A373E3941E3C34A900ED2F2B /* ThemeDictionaryPicker.swift */,
+				A97D339C227AB65D00A0359C /* ThemeAttributedStringPicker.swift */,
 				A373E38F1E3C348B00ED2F2B /* ThemeCGColorPicker.swift */,
 				A373E38A1E3C346C00ED2F2B /* ThemeCGFloatPicker.swift */,
 				A373E3801E3C341200ED2F2B /* ThemeColorPicker.swift */,
@@ -608,6 +624,8 @@
 			children = (
 				ECEAC74D333D35C31C5B72FB /* Pods-PlistDemo.debug.xcconfig */,
 				417E8CF58D0A02C9ADB1FB59 /* Pods-PlistDemo.release.xcconfig */,
+				958B053E145AEA5E5DABCC58 /* Pods-SwiftTheme.debug.xcconfig */,
+				3029E695201D33385D48713B /* Pods-SwiftTheme.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -642,9 +660,8 @@
 				186C86361C857AA900A5FFEA /* Sources */,
 				186C86371C857AA900A5FFEA /* Frameworks */,
 				186C86381C857AA900A5FFEA /* Resources */,
-				83CE11A2B500A46E52ADDC0E /* [CP] Embed Pods Frameworks */,
-				0D6253AF05BB26FAE8C17D3F /* [CP] Copy Pods Resources */,
 				A3AABE981FF4861A00482FF1 /* Embed Frameworks */,
+				907A483C6A1B5132B24334C3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -660,6 +677,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18D642B51C53613400DADEC5 /* Build configuration list for PBXNativeTarget "SwiftTheme" */;
 			buildPhases = (
+				865F86977D173832041DB1A0 /* [CP] Check Pods Manifest.lock */,
 				18D642A81C53613400DADEC5 /* Sources */,
 				18D642A91C53613400DADEC5 /* Frameworks */,
 				18D642AA1C53613400DADEC5 /* Headers */,
@@ -869,21 +887,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0D6253AF05BB26FAE8C17D3F /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlistDemo/Pods-PlistDemo-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		582FCABFC892006AF3CF9B57 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -902,19 +905,54 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		83CE11A2B500A46E52ADDC0E /* [CP] Embed Pods Frameworks */ = {
+		865F86977D173832041DB1A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftTheme-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		907A483C6A1B5132B24334C3 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlistDemo/Pods-PlistDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SSZipArchive/SSZipArchive.framework",
+				"${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework",
+				"${BUILT_PRODUCTS_DIR}/PINOperation/PINOperation.framework",
+				"${BUILT_PRODUCTS_DIR}/PINRemoteImage/PINRemoteImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Texture/AsyncDisplayKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SSZipArchive.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINOperation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINRemoteImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AsyncDisplayKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlistDemo/Pods-PlistDemo-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PlistDemo/Pods-PlistDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -948,6 +986,7 @@
 				18D642EA1C53638200DADEC5 /* NSObject+Theme.swift in Sources */,
 				C7C3CC1E21CF8D6300DDA4C1 /* ThemeScrollViewIndicatorStylePicker.swift in Sources */,
 				18D642E41C53638200DADEC5 /* ThemeManager.swift in Sources */,
+				A97D339D227AB65D00A0359C /* ThemeAttributedStringPicker.swift in Sources */,
 				A373E39F1E3C34E500ED2F2B /* ThemeStatePicker.swift in Sources */,
 				18D642E61C53638200DADEC5 /* UIColorExtension.swift in Sources */,
 				187C0D1E1C562AC00000FA89 /* ThemePicker.swift in Sources */,
@@ -957,6 +996,7 @@
 				A373E38B1E3C346C00ED2F2B /* ThemeCGFloatPicker.swift in Sources */,
 				A373E3951E3C34A900ED2F2B /* ThemeDictionaryPicker.swift in Sources */,
 				A3D5F81E1E3C5B1F00F901C1 /* ThemeFontPicker.swift in Sources */,
+				A9D2CECE2279FB3F00898EDC /* AsyncDisplayKit+Theme.swift in Sources */,
 				A3D5F8141E3C4D3900F901C1 /* ThemeBarStylePicker.swift in Sources */,
 				18D642E81C53638200DADEC5 /* UIKit+Theme.swift in Sources */,
 				A373E39A1E3C34C600ED2F2B /* ThemeStatusBarStylePicker.swift in Sources */,
@@ -1284,6 +1324,7 @@
 		};
 		18D642B61C53613400DADEC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 958B053E145AEA5E5DABCC58 /* Pods-SwiftTheme.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_MODULES = YES;
@@ -1306,6 +1347,7 @@
 		};
 		18D642B71C53613400DADEC5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3029E695201D33385D48713B /* Pods-SwiftTheme.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_MODULES = YES;
