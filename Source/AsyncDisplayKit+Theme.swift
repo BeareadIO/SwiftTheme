@@ -9,7 +9,7 @@
 import Foundation
 import AsyncDisplayKit
 
-public extension ASDisplayNode
+@objc public extension ASDisplayNode
 {
     var theme_alpha: ThemeCGFloatPicker? {
         get { return getThemePicker(self, "setAlpha:") as? ThemeCGFloatPicker }
@@ -37,7 +37,7 @@ public extension ASDisplayNode
     }
 }
 
-public extension ASTextNode
+@objc public extension ASTextNode
 {
     var theme_attributedText: ThemeAttributedStringPicker? {
         get { return getThemePicker(self, "setAttributedText:") as? ThemeAttributedStringPicker }
@@ -45,7 +45,7 @@ public extension ASTextNode
     }
 }
 
-public extension ASTextNode2
+@objc public extension ASTextNode2
 {
     var theme_attributedText: ThemeAttributedStringPicker? {
         get { return getThemePicker(self, "setAttributedText:") as? ThemeAttributedStringPicker }
@@ -53,7 +53,7 @@ public extension ASTextNode2
     }
 }
 
-public extension ASEditableTextNode
+@objc public extension ASEditableTextNode
 {
     var theme_keyboardAppearance: ThemeKeyboardAppearancePicker? {
         get { return getThemePicker(self, "setKeyboardAppearance:") as? ThemeKeyboardAppearancePicker }
@@ -61,7 +61,7 @@ public extension ASEditableTextNode
     }
 }
 
-public extension ASImageNode
+@objc public extension ASImageNode
 {
     var theme_image: ThemeImagePicker? {
         get { return getThemePicker(self, "setImage:") as? ThemeImagePicker }
@@ -69,7 +69,7 @@ public extension ASImageNode
     }
 }
 
-public extension ASButtonNode
+@objc public extension ASButtonNode
 {
     func theme_setImage(_ picker: ThemeImagePicker?, forState state: UIControl.State) {
         let statePicker = makeStatePicker(self, "setImage:forState:", picker, state)
